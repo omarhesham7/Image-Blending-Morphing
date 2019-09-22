@@ -239,20 +239,3 @@ if __name__ == "__main__":
     print("time: ", tend - tstrt)
     print("Elapsed time:", ((t1_stop - t1_start)))
     print("CPU process time:",  ((t2_stop - t2_start)))
-
-
-    ####### ColorMorpher
-    # leftImagePath = '/Users/Omar/labs-omarhesham7/Lab12/TestData/LeftColor.png'
-    # rightImagePath = '/Users/Omar/labs-omarhesham7/Lab12/TestData/RightColor.png'
-    # leftPointFilePath = '/Users/Omar/labs-omarhesham7/Lab12/TestData/LeftGray.png.txt'
-    # rightPointFilePath = '/Users/Omar/labs-omarhesham7/Lab12/TestData/RightGray.png.txt'
-    #
-    # leftImage = np.asarray(imageio.imread(leftImagePath), dtype=np.uint8)
-    # rightImage = np.asarray(imageio.imread(rightImagePath), dtype=np.uint8)
-    #
-    # leftTriangles, rightTriangles = loadTriangles(leftPointFilePath, rightPointFilePath)
-    #
-    # ColorMorp = ColorMorpher(leftImage, leftTriangles, rightImage, rightTriangles)
-    # ColorMorp.getImageAtAlpha(0.5)
-
-    #######
