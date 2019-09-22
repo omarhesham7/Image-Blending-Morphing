@@ -214,12 +214,10 @@ class ColorMorpher(Morpher):
 
 
 if __name__ == "__main__":
-    # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
-    leftImagePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/LeftGray.png' # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
-    rightImagePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/RightGray.png' # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
-    leftPointFilePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/LeftGray.png.txt' # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
-    rightPointFilePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/RightGray.png.txt' # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
-    # CHANGE THE DATA PATH !!!!!!!!!!!!!!!
+    leftImagePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/LeftGray.png' 
+    rightImagePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/RightGray.png' 
+    leftPointFilePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/LeftGray.png.txt' 
+    rightPointFilePath = '/home/ecegridfs/a/ee364f28/Documents/labs-omarhesham7/Lab12/TestData/RightGray.png.txt' 
 
     t1_start = time.perf_counter()
     t2_start = time.process_time()
